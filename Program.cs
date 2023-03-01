@@ -64,7 +64,8 @@ namespace Blog
                 var marcas = context.Marcas.ToList();
                 foreach (var item in marcas)
                 {
-                    Console.WriteLine($"OS DADOS SÃO ESSES: {item.nome}-{item.descricao}");
+                    Console.WriteLine("---------Todas as marcas----------");
+                    Console.WriteLine(item.nome + item.descricao);
                 }
             }
         }
